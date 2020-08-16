@@ -1,0 +1,18 @@
+#about {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#about #container {
+    padding: 60px;
+}
+
+#about div #title h1{
+    font-family: 'Pacifico', cursive;
+    font-size: calc(2em + 4vw);
+    margin-bottom: 30px;
+}
+
+#about div #text p {
+    font-size: calc(11px + 1vw);
+}

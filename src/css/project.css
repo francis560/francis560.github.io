@@ -1,0 +1,18 @@
+#project #project-container {
+    text-align: center;
+}
+
+#project #project-container #project-title{
+    margin-bottom: 70px;
+}
+
+#project #project-container #project-title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: calc(2em + 4vw);
+    margin-bottom: 30px;
+}
+
+#project #project-container #project-img img {
+    margin: 5px 10px;
+    width: calc(16rem + 1vw);
+}

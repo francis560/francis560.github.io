@@ -1,0 +1,10 @@
+@import '../css/hero.css';
+@import '../css/about.css';
+@import '../css/service.css';
+@import '../css/project.css';
+@import '../css/form.css';
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

@@ -1,0 +1,39 @@
+#service {
+    margin-bottom: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+#service .container #service-title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: calc(2em + 4vw);
+    margin-bottom: 50px;
+}
+
+#service .container #service-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#service .container #service-card #card {
+    background-color: #e4e2e2;
+    margin: 30px auto;
+    width: 294px;
+    padding: 25px;
+}
+
+#service .container #service-card #card i {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#service .container #service-card #card div {
+    margin-top: 30px;
+}
+
+#service .container #service-card #card div p {
+    font-size: 20px;
+}

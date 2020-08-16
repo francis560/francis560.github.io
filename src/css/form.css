@@ -1,0 +1,25 @@
+#contact {
+    margin-top: 50px;
+}
+
+#contact #contact-title {
+    text-align: center;
+    padding: 80px;
+}
+
+#contact #contact-title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: calc(2em + 4vw);
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#contact #contact-title hr {
+    border-color: #fff;
+    margin-bottom: calc(4px + 1vh);
+}
+
+#contact form { 
+    width: calc(60px + 60vw);
+    margin: auto;
+}

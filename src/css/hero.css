@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../public/img/laptop.jpg');
+    background-size: calc(90% + 60vh);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+header #caja {
+    width: 100%;
+    text-align: center;
+    transform: translateY(calc(4em + 10vh));
+}
+
+header #caja div h1 {
+    font-family: 'Lobster', cursive;
+    font-size: calc(3em + 10vw);
+}
+
+header #caja div p {
+    font-family: 'Lobster', cursive;
+    font-size: calc(1em + 2vw);
+}

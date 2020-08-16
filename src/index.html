@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../public/web-development (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4">Page content</h5>
+                <span class="text-muted">Enjoy the content.</span>
+                <ul class="navbar-nav mr-auto" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                    <a class="nav-link mx-3 text-white" href="#">Home</a>
+                    <a class="nav-link mx-3 text-white" href="#about">About</a>
+                    <a class="nav-link mx-3 text-white" href="#service">Services</a>
+                    <a class="nav-link mx-3 text-white" href="#project">Projects</a>
+                    <a class="nav-link mx-3 text-white" href="#contact">Contact</a>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-primary">
+            <a href="#">
+               <img width="40px" class="navbar-brand" src="../public/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" style="outline: none; color: #fff; border: none; padding: 10px;" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+
+
+    <header>
+        <div id="caja">
+            <div>
+                <h1>Welcome</h1>
+                <p class="text-primary">We help you sell more</p>
+                <a href="" class="btn btn-primary">Contact</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="about">
+        <div id="container" data-aos="fade-up">
+            <div id="title">
+                <h1>About us</h1>
+            </div>
+            <div id="text" class="p-4" style="background-color: #e4e2e2;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dicta, possimus asperiores quisquam commodi voluptates fuga distinctio cumque accusamus nulla alias qui totam illum placeat nemo dolor. Maxime, incidunt perspiciatis?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="container">
+            <div id="service-title" data-aos="fade-up">
+                <h1>Services</h1>
+            </div>
+            <div id="service-card">
+                <div id="card" data-aos="fade-up">
+                    <i class="fas fa-user-shield"></i>
+                    <h4><strong>Exclusive design</strong></4>
+                    <hr>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis!</p>
+                    </div>
+                </div>
+                <div id="card" data-aos="fade-up">
+                    <i class="fab fa-html5"></i>
+                    <h4><strong>Responsive design</strong></h4>
+                    <hr>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium.</p>
+                    </div>
+                </div>
+                <div id="card" data-aos="fade-up">
+                    <i class="fas fa-pencil-ruler"></i> 
+                    <h4><strong>Personalized design</strong></h4>
+                    <hr>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project">
+        <div id="project-container">
+            <div id="project-title" data-aos="fade-up">
+                <h1>Projects</h1>
+            </div>
+            <div id="project-img" data-aos="flip-up">
+                <img src="../public/img/web1.webp" alt="">
+                <img src="../public/img/web5.webp" alt="">
+                <img src="../public/img/web3.webp" alt="">
+                <img src="../public/img/web4.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="bg-dark py-4">
+        <div id="contact-title" data-aos="fade-up">
+            <h1>Contact</h1>
+            <hr>
+        </div>
+        <form data-aos="fade-up">
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" placeholder="affair" required></textarea>
+            </div>
+                <button class="btn btn-primary btn-lg">Send</button>
+          </form>
+    </section>
+
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+              <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Features</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Cool stuff</a></li>
+                <li><a class="text-muted" href="#">Random feature</a></li>
+                <li><a class="text-muted" href="#">Team feature</a></li>
+                <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                <li><a class="text-muted" href="#">Another one</a></li>
+                <li><a class="text-muted" href="#">Last time</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Resource</a></li>
+                <li><a class="text-muted" href="#">Resource name</a></li>
+                <li><a class="text-muted" href="#">Another resource</a></li>
+                <li><a class="text-muted" href="#">Final resource</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Business</a></li>
+                <li><a class="text-muted" href="#">Education</a></li>
+                <li><a class="text-muted" href="#">Government</a></li>
+                <li><a class="text-muted" href="#">Gaming</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Team</a></li>
+                <li><a class="text-muted" href="#">Locations</a></li>
+                <li><a class="text-muted" href="#">Privacy</a></li>
+                <li><a class="text-muted" href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
